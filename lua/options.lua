@@ -4,6 +4,9 @@
 -- Make line numbers default
 vim.wo.number = true
 
+-- Disable wrapping
+vim.wo.wrap = false
+
 -- Enable mouse mode
 vim.o.mouse = 'a'
 
