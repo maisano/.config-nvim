@@ -89,6 +89,7 @@ require('mason-lspconfig').setup()
 local servers = {
   pyright = {},
   ts_ls = {},
+  biome = {},
   eslint = {},
   html = { filetypes = { 'html', 'twig', 'hbs'} },
 
